@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumProject.Testcase29">
+      <class name="seleniumProject.Testcase">
         <methods>
-          <include name="close"/>
-          <include name="login"/>
-          <include name="initializeDriver"/>
+          <include name="PageTitle"/>
         </methods>
-      </class> <!-- seleniumProject.Testcase29 -->
+      </class> <!-- seleniumProject.Testcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
