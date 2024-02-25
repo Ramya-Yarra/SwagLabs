@@ -18,6 +18,6 @@ public class POM {
 		Assert.assertEquals(SwagTitleAct, SwagTitleExp);
 		System.out.println("Page title after login: " + driver.getTitle());
 		System.out.println("Logged In successfully");
-		driver.close();
+		driver.close();	
     }
 }
